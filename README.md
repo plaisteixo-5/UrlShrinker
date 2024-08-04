@@ -3,7 +3,7 @@ This project implements a REST API with Spring Boot to solve this [challenge](ht
 The main objective is learn Java and implement additional technologies to shorten urls.
 
 ## Technologies used
-- Java
+- Java 21
 - Redis 
 - Hibernate
 - Docker
@@ -30,18 +30,31 @@ The main objective is learn Java and implement additional technologies to shorte
 		}
 		```
 
+- **GET /{urlShortened}**
+	- Redirect to te url that was shortened, if is valid.
+	- Response:
+		``` json
+		{
+			-- Content of url page.
+		}
+		```
+
 ## Running the project
 
 1. Clone the repository:
+
 `git clone https://github.com/plaisteixo-5/UrlShrinker.git`
 
 2. Navigate to the project directory:
+
 `cd UrlShrinker`
 
 3. Build the project:
+
 `mvn clean package`
 
 4. Run the application:
+
 `java -jar target/UrlShrinker.jar`
 
 ## To-do
