@@ -3,7 +3,8 @@ This project implements a REST API with Spring Boot to solve this [challenge](ht
 The main objective is learn Java and implement additional technologies to shorten urls.
 
 ## Technologies used
-- Redis
+- Java
+- Redis 
 - Hibernate
 - Docker
 - Spring boot
@@ -44,12 +45,12 @@ The main objective is learn Java and implement additional technologies to shorte
 `java -jar target/UrlShrinker.jar`
 
 ## To-do
-- [ ] Implement timeout to cache on redis
-- [ ] Implement redirect
+- [ x ] Implement timeout to cache on redis
+- [ x ] Implement redirect
 - [ ] Error handling
 - [ ] Unit tests
 - [ ] Documentation
 - [ ] Create image
 - [ ] Create docker-compose
-- [ ] Create validations in url
+- [ x ] Create validations in url
 - [ ] Upload service design
