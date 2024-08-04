@@ -36,7 +36,7 @@ The main objective is learn Java and implement additional technologies to shorte
 	- Response:
 		``` json
 		{
-			-- Content of url page.
+			// Content of url page.
 		}
 		```
 
