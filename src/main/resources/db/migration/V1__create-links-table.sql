@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS links(
+    id BIGSERIAL PRIMARY KEY,
+    long_url VARCHAR(200) NOT NULL,
+    short_url VARCHAR(200) NOT NULL,
+    created_date TIMESTAMP NOT NULL,
+    expire_date TIMESTAMP NOT NULL
+);
