@@ -61,6 +61,7 @@ The main objective is learn Java and implement additional technologies to shorte
 ## To-do
 - [x] Implement timeout to cache on redis
 - [x] Implement redirect
+- [ ] Add logs
 - [ ] Error handling
 - [ ] Unit tests
 - [ ] Documentation
