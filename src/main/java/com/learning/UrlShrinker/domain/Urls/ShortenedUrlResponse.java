@@ -1,4 +1,4 @@
-package com.learning.UrlShrinker.Links;
+package com.learning.UrlShrinker.domain.Urls;
 
 import java.time.LocalDateTime;
 
