@@ -10,11 +10,4 @@ import java.time.LocalDateTime;
 @Repository
 public interface UrlRepository extends JpaRepository<Url, Long> {
 
-    @Query("SELECT l " +
-            "FROM " +
-                "Link l " +
-            "WHERE " +
-                "l.longUrl = :url " +
-                "AND l.expireDate >= :currentTime")
-    Url findLinkByUrlAndNotExpired(@Param("url") String url, @Param("currentTime") LocalDateTime currentTime);
 }

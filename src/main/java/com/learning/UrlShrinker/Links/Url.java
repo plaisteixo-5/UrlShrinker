@@ -9,7 +9,7 @@ import lombok.Setter;
 import java.time.LocalDateTime;
 
 
-@Table(name = "links")
+@Table(name = "urls")
 @Entity
 @Getter
 @Setter

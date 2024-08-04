@@ -1,10 +1,10 @@
-package com.learning.EcurtadorURL;
+package com.learning.UrlShrinker;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class EcurtadorUrlApplicationTests {
+class UrlShrinkerApplicationTests {
 
 	@Test
 	void contextLoads() {

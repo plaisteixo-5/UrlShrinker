@@ -70,18 +70,19 @@ public class UrlService {
     }
 
     public List<ShortUrlResponse> getAllLinks() {
-        List<Url> links = repository.findAll();
+        List<Url> urls = repository.findAll();
         
-        return links.stream().map(link -> new ShortUrlResponse(link.getLongUrl(), link.getShortUrl(), link.getExpireDate())).toList();
+        return urls.stream().map(url -> new ShortUrlResponse(url.getLongUrl(), url.getShortUrl(), url.getExpireDate())).toList();
     }
 
     public ShortenedUrlResponse getShortenedUrl(String shortedUrl) {
-        Url link = repository.findLinkByUrlAndNotExpired(shortedUrl, LocalDateTime.now());
+        // Url link = repository.findUrlByUrlAndNotExpired(shortedUrl, LocalDateTime.now());
+        Url url = new Url();
         
-        if(link.getId() == null) {
+        if(url.getId() == null) {
             System.out.println("Link não localizado.");
         }
         
-        return new ShortenedUrlResponse(link.getShortUrl(), link.getExpireDate());
+        return new ShortenedUrlResponse(url.getShortUrl(), url.getExpireDate());
     }
 }
