@@ -45,12 +45,12 @@ The main objective is learn Java and implement additional technologies to shorte
 `java -jar target/UrlShrinker.jar`
 
 ## To-do
-- [ x ] Implement timeout to cache on redis
-- [ x ] Implement redirect
+- [x] Implement timeout to cache on redis
+- [x] Implement redirect
 - [ ] Error handling
 - [ ] Unit tests
 - [ ] Documentation
 - [ ] Create image
 - [ ] Create docker-compose
-- [ x ] Create validations in url
+- [x] Create validations in url
 - [ ] Upload service design
