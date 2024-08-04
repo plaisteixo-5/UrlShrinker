@@ -5,11 +5,11 @@ The main objective is learn Java and implement additional technologies to shorte
 ## Technologies used
 - Java 21
 - Redis 
-- Hibernate
-- Docker
-- Spring boot
-- Flyway
-- H2
+- Docker 27.0.3
+- Spring boot 3.3.1
+- Flyway 10.10.0
+- H2 2.2.224
+- Jedis 5.0.2
 - PostegreSQL
 
 ## Endpoints
