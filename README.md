@@ -1,5 +1,6 @@
 # Url Shrinker
 This project implements a REST API with Spring Boot to solve this [challenge](https://github.com/backend-br/desafios/blob/master/url-shortener/PROBLEM.md).
+
 The main objective is learn Java and implement additional technologies to shorten urls.
 
 ## Technologies used
