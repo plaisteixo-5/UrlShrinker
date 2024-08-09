@@ -42,21 +42,30 @@ The main objective is learn Java and implement additional technologies to shorte
 
 ## Running the project
 
+To run the project, you will need to have [docker compose](https://docs.docker.com/compose/install/) or maven installed on your machine.
+
 1. Clone the repository:
 
-`git clone https://github.com/plaisteixo-5/UrlShrinker.git`
+	```
+	git clone https://github.com/plaisteixo-5/UrlShrinker.git
+ 	```
 
-2. Navigate to the project directory:
+3. Navigate to the project directory:
 
-`cd UrlShrinker`
+	```
+	cd UrlShrinker
+ 	```
 
-3. Build the project:
+5. Run docker compose to up the application
+   
+	```
+	docker compose up
+ 	```
 
-`mvn clean package`
-
-4. Run the application:
-
-`java -jar target/UrlShrinker.jar`
+7. Test the application:
+   ```
+   curl --location 'localhost:8080/shorten-url' \--header 'Content-Type: application/json' \--data '{ "longUrl": "https://github.com/"}'
+   ```
 
 ## To-do
 - [x] Implement timeout to cache on redis
@@ -65,7 +74,7 @@ The main objective is learn Java and implement additional technologies to shorte
 - [ ] Error handling
 - [ ] Unit tests
 - [ ] Documentation
-- [ ] Create image
-- [ ] Create docker-compose
+- [x] Create image
+- [x] Create docker-compose
 - [x] Create validations in url
 - [ ] Upload service design
