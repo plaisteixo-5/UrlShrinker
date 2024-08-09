@@ -11,7 +11,6 @@ The main objective is learn Java and implement additional technologies to shorte
 - Flyway 10.10.0
 - H2 2.2.224
 - Jedis 5.0.2
-- PostegreSQL
 
 ## Endpoints
 - **POST /shorten-url**
@@ -78,3 +77,4 @@ To run the project, you will need to have [docker compose](https://docs.docker.c
 - [x] Create docker-compose
 - [x] Create validations in url
 - [ ] Upload service design
+- [ ] Utilize PostgreSQL
